@@ -11,7 +11,7 @@ $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 $arrPostData = array();
 $arrPostData['to'] = "U4ee1b1a79acfb7dcecdf6f85fc3eda32";
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1;
+$arrPostData['messages'][0]['text'] = 'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1';
  
  
 $ch = curl_init();
