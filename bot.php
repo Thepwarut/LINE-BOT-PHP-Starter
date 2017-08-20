@@ -18,8 +18,9 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 			$messages = [
-				'type' => 'text',
-				'text' => $text
+			//	'type' => 'text',
+			//	'text' => $text
+				'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1'
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
