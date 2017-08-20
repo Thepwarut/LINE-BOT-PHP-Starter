@@ -20,7 +20,7 @@ if (!is_null($events['events'])) {
 			$messages = [
 				'type' => 'text',
 			//	'text' => $text
-				'text' => https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1
+				'text' => $https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
