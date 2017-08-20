@@ -19,7 +19,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'หวัดดี',
-				'text' => $ยินดีต้อนรับ
+				'text' => $'ยินดีต้อนรับ'
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
