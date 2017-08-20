@@ -1,6 +1,6 @@
 <?php
  
-$strAccessToken = "Q9mBh6gIvVPV0WwarYpIJgX2KgaSB8+EVOLQs0ArwbV70v/wy9TSRiDqE5tdWMVBu9f5Hfkhg1IQZo7t75pihBIfiXhf7VSfm4yPB3MzQisRg4pUVXUYgU5ZHhDQP3IoB4Lcw1XntAz8k2Y22GGjCgdB04t89/1O/w1cDnyilFU=";
+$strAccessToken = ".....";
  
 $strUrl = "https://api.line.me/v2/bot/message/push";
  
@@ -9,9 +9,9 @@ $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
 $arrPostData = array();
-$arrPostData['to'] = "U4ee1b1a79acfb7dcecdf6f85fc3eda32";
+$arrPostData['to'] = ".....";
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = 'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1';
+$arrPostData['messages'][0]['text'] = ".....";
  
  
 $ch = curl_init();
