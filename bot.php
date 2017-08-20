@@ -27,7 +27,7 @@ if (!is_null($events['events'])) {
 			$data = [
 				'replyToken' => $replyToken,
 			//	'messages' => [$messages],
-			$url =	'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1',
+			$url =	https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1,
 			];
 			$post = json_encode($data);
 			$headers = array('Content-Type: application/json', 'Authorization: Bearer ' . $access_token);
