@@ -20,17 +20,17 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "ฉันยังไม่มีชื่อนะ";
+  $arrPostData['messages'][0]['text'] = "อภิรักษ์";
 }
 
-else if($arrJson['events'][0]['message']['text'] == "เปิดไฟ"){
+else if($arrJson['events'][0]['message']['text'] == "เปิดไฟหน้าบ้านดวงที่หนึ่ง"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = 'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1';
 }
 
-else if($arrJson['events'][0]['message']['text'] == "ปิดไฟ"){
+else if($arrJson['events'][0]['message']['text'] == "ปิดไฟหน้าบ้านดวงที่หนึ่ง"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
