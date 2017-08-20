@@ -27,16 +27,16 @@ else if($arrJson['events'][0]['message']['text'] == "เปิดไฟหน้
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $strUrl = 'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1';
   $arrPostData['messages'][0]['text'] = "เปิดไฟหน้าบ้านแล้ว";
+  $strUrl = 'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/1';
 }
 
 else if($arrJson['events'][0]['message']['text'] == "ปิดไฟหน้าบ้านดวงที่หนึ่ง"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $strUrl = 'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/0';
   $arrPostData['messages'][0]['text'] = "ปิดไฟหน้าบ้านแล้ว";
+  $strUrl = 'https://api.anto.io/channel/set/g6WxzaZHiL344vzOljd6yXN2k0VtC6sJlxhUfsiY/NodeMCU/LED1/0';
 }
 
 else if($arrJson['events'][0]['message']['text'] == "ทำอะไรได้บ้าง"){
